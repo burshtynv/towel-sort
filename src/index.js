@@ -2,7 +2,7 @@
 // You should implement your task here.
 
 module.exports = function towelSort(matrix) {
-  let result = [];
+  let result = []
   let counter = 0; // used to check if elem is even or odd
   if (matrix) {
     matrix.forEach(element => {
